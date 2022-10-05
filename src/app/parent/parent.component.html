@@ -1,1 +1,15 @@
-<p>parent works!</p>
+<h1>This is Parent Component</h1>
+<br />
+<p>{{ parentMessage }}</p>
+<br />
+<app-child
+  #childFirst
+  name="Child First"
+  (childCall)="childResponse($event)"
+></app-child>
+<br />
+<app-child
+  #childSecond
+  name="Child Second"
+  (childCall)="childResponse($event)"
+></app-child>

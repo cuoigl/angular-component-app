@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FageNotFoundComponent } from './fage-not-found/fage-not-found.component';
 import { ParentComponent } from './parent/parent.component';
 import { ChildComponent } from './child/child.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FageNotFoundComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
